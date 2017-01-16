@@ -90,82 +90,71 @@ Tambem adicionaria exemplos praticos na descricao do tipo e severidade dos erros
 	
  
 	
-2 - Test plan
-1 - login failed
-empty username
-empty password
-empty password and username
-inexistent user
-wrong password
-sql injection
-
-2 - login successful
-happy path:
-pick a task
-perform annotation
-(1 issue minor)
-take a break
-resume annotation
-(1 issue minor)
-finnish annotation
-check score
-
-check if QT21 is correctly calculated with 2 different issues types
-pick a task
-perform annotation
-(1 issue major)
-take a break
-resume annotation
-(1 issue minor)
-finnish annotation
-check score
-
-check if QT21 is correctly calculated with 3 different issues types
-pick a task
-perform annotation
-(1 issue minor)
-take a break
-resume annotation
-(1 issue critical)
-take a break
-resume annotation
-(1 issue major)
-finnish annotation
-check score
-
-check if QT21 is correctly calculated with 3 different issues types without breaks
-pick a task
-perform annotation
-(1 issue critical)
-finnish annotation
-check score
-
+2 - Test plan <br />
+1 - login failed <br />
+empty username <br />
+empty password <br />
+empty password and username <br />
+inexistent user <br />
+wrong password <br />
+sql injection <br />
+ <br />
+2 - login successful <br />
+happy path: <br />
+pick a task <br />
+perform annotation <br />
+(1 issue minor) <br />
+take a break <br />
+resume annotation <br />
+(1 issue minor) <br />
+finnish annotation <br />
+check score <br />
+ <br />
+check if QT21 is correctly calculated with 2 different issues types <br />
+pick a task <br />
+perform annotation <br />
+(1 issue major) <br />
+take a break <br />
+resume annotation <br />
+(1 issue minor) <br />
+finnish annotation <br />
+check score <br />
+ <br />
+check if QT21 is correctly calculated with 3 different issues types <br />
+pick a task <br />
+perform annotation <br />
+(1 issue minor) <br />
+take a break <br />
+resume annotation <br />
+(1 issue critical) <br />
+take a break <br />
+resume annotation <br />
+(1 issue major) <br />
+finnish annotation <br />
+check score <br />
+ <br />
+check if QT21 is correctly calculated with 3 different issues types without breaks <br />
+pick a task <br />
+perform annotation <br />
+(1 issue critical) <br />
+finnish annotation <br />
+check score <br />
+ <br />
 
 check if QT21 is correctly calculated with 3 different issues types with severall issues in each break session time out
-pick a task
-perform annotation
-(2 issue minor)
-take a break
-resume annotation
-(2 issue minor)
-expire session
-login
-resume annotation
-(1 issue major)
-take a break
-resume annotation
-(1 issue minor)
-finnish annotation
-check score
-
-
-
-
-	
-	
-
-	
-
-
- 
-
+pick a task <br />
+perform annotation <br />
+(2 issue minor) <br />
+take a break <br />
+resume annotation <br />
+(2 issue minor) <br />
+expire session <br />
+login <br />
+resume annotation <br />
+(1 issue major) <br />
+take a break <br />
+resume annotation <br />
+(1 issue minor) <br />
+finnish annotation <br />
+check score <br />
+ <br />
