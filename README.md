@@ -7,7 +7,7 @@ I think that the document is hard to read due to its information sequence. My su
 #### 1  What is Unbabel and what are the type of texts I will be working with 
 * How does Unbabel work?
 <br />
-#### 2 Annotation tool 
+#### 2 Annotation tool <br />
 * what is it 
 * what does it do
 * annotation goals
@@ -16,7 +16,7 @@ I think that the document is hard to read due to its information sequence. My su
 	* batches 
 	* etc 
 <br />
-#### 3. User guide
+#### 3. User guide<br />
 * login
 * start page
 * description of what is there and how to use it
