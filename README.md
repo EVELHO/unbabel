@@ -1,36 +1,36 @@
 
-#1.1 Review and refactor
+# 1 - Review and refactor
 
 
 I think that the document is hard to read due to its information sequence. My suggestion to ease the comprehension of the reader would be to group the document into logic parts, following an ordered action flow something as below:
 
-####1.  What is Unbabel and what are the type of texts I will be working with
-* How does Unbabel work? 
-####2. Annotation tool 
-* what is it 
-* what does it do
-* annotation goals
-* tool quick glossary
-	* translation task
-	* batches 
-	* etc 
-####3. User guide
-* login
-* start page
-* description of what is there and how to use it>
-* how to create an annotation 
-	* where to go
-	* detail the creation of at least one of the most commons and the all the "trickiest" that may be harder to create as the spaced words
-	* what are the client instructions
-	* Error type and severity overview
-		* mentioning that the errors details and severity are explained later on the document 
-	* overview do QT21 e MQM
-		* mentioning that QT21 and MQM are explained later on the document
-	* lista de anotations e a sua navegacao
-####4. Descricao detalhada de
-* tipos de erros 
-* severidade de erros
-* QT21 e MQM
+#### 1.  What is Unbabel and what are the type of texts I will be working with <br />
+* How does Unbabel work? <br />
+#### 2. Annotation tool <br />
+* what is it <br />
+* what does it do<br />
+* annotation goals<br />
+* tool quick glossary<br />
+	* translation task<br />
+	* batches <br />
+	* etc <br />
+#### 3. User guide<br />
+* login<br />
+* start page<br />
+* description of what is there and how to use it><br />
+* how to create an annotation <br />
+	* where to go<br />
+	* detail the creation of at least one of the most commons and the all the "trickiest" that may be harder to create as the spaced words<br />
+	* what are the client instructions<br />
+	* Error type and severity overview<br />
+		* mentioning that the errors details and severity are explained later on the document <br />
+	* overview do QT21 e MQM<br />
+		* mentioning that QT21 and MQM are explained later on the document<br />
+	* lista de anotations e a sua navegacao<br />
+#### 4. Descricao detalhada de<br />
+* tipos de erros <br />
+* severidade de erros<br />
+* QT21 e MQM<br />
 <br />
 <br />
 <br />
@@ -44,30 +44,30 @@ Lastly I would also add practical examples in errors descriptions and severity t
 <br />
 <br />
 <br />
-#1.2 Spec out
+# 1.2 Spec out
 <br />
-####1. Login requirement specification<br />
+#### 1. Login requirement specification<br />
 <br />
-####Access Page
+#### Access Page
 	* When the user access the application, if he is not logged in with an active session he should see the following login page:
 		
 	 (Mockup with the same buttons: the "contact us" and the "sign in" buttons)
 		
 
-#####Contact us button
+##### Contact us button
 	* If a user does not have credentials, he shall press the "Contact us" button.
 	* This button shall open a request form so that the user can manage any questions regarding login in the application directly with us.
 
-#####Sign in button:>
+##### Sign in button:>
 	* When the user clicks on this button, the login form should be displayed:
 	(mock up with the login form "username" and "password" labels and boxes and with a "sign in" button)
-######1. Username Label - shall be defined with font XXX size XXX color FFXXXX
-######2. Password Label - shall be defined with font XXX size XXX color FFXXXX
-######3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"
-######4. Password shall be defined as a password field with font XXX size XXX color FFXXXX with a placeholder defined as "password"
+###### 1. Username Label - shall be defined with font XXX size XXX color FFXXXX
+###### 2. Password Label - shall be defined with font XXX size XXX color FFXXXX
+###### 3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"
+###### 4. Password shall be defined as a password field with font XXX size XXX color FFXXXX with a placeholder defined as "password"
 ######5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX
 
-####Flow of actions:
+#### Flow of actions:
 1. User shall fill in the username
 2. User shall fill in the password
 3. User shall press "Sign In" button
@@ -82,7 +82,7 @@ Lastly I would also add practical examples in errors descriptions and severity t
 	
  
 	
-#2 - Test plan <br />
+# 2 - Test plan <br />
 ### 1 - login failed <br />
 #### 1.1 - empty username <br />
 #### 1.2 - empty password <br />
@@ -91,7 +91,7 @@ Lastly I would also add practical examples in errors descriptions and severity t
 #### 1.5 - wrong password <br />
 #### 1.6 - sql injection <br />
  <br />
-###2 - login successful <br />
+### 2 - login successful <br />
 #### 2.1 - happy path: <br />
 pick a task <br />
 perform annotation <br />
