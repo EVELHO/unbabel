@@ -2,10 +2,10 @@
 #1.1 Review and refactor
 
 
-I think that the document is hard to read due to its information sequence. My suggestion to ease the comprehension of the reader would be to group the document into logic parts, following an ordered action flow something as below:<br />
-<br />
+I think that the document is hard to read due to its information sequence. My suggestion to ease the comprehension of the reader would be to group the document into logic parts, following an ordered action flow something as below:
+
 ####1.  What is Unbabel and what are the type of texts I will be working with
-	* How does Unbabel work? <br />
+	* How does Unbabel work? 
 ####2. Annotation tool 
 	* what is it 
 	* what does it do
@@ -23,12 +23,12 @@ I think that the document is hard to read due to its information sequence. My su
 	* detail the creation of at least one of the most commons and the all the "trickiest" that may be harder to create as the spaced words
 	* what are the client instructions
 	* Error type and severity overview
-		* mentioning that the errors details and severity are explained later on the document <br />
+		* mentioning that the errors details and severity are explained later on the document 
 	* overview do QT21 e MQM
 		* mentioning that QT21 and MQM are explained later on the document
 	* lista de anotations e a sua navegacao
 ####4. Descricao detalhada de
-* tipos de erros <br />
+* tipos de erros 
 * severidade de erros
 * QT21 e MQM
 <br />
@@ -40,11 +40,11 @@ I would suggest to change the document in order to put this information in seque
 I would also add visual support with application screenshots for each step.<br />
 <br />
 
-Lastly I would also add practical examples in errors descriptions and severity to enhance reader comprehension.<br />
+Lastly I would also add practical examples in errors descriptions and severity to enhance reader comprehension.
 <br />
 <br />
 <br />
-#1.2 Spec out<br />
+#1.2 Spec out
 <br />
 ####1. Login requirement specification<br />
 <br />
@@ -59,8 +59,8 @@ Lastly I would also add practical examples in errors descriptions and severity t
 	* This button shall open a request form so that the user can manage any questions regarding login in the application directly with us.
 
 #####Sign in button:<br />
-	* When the user clicks on this button, the login form should be displayed:<br />
-	* *mock up with the login form "username" and "password" labels and boxes and with a "sign in" button.*<br />
+	* When the user clicks on this button, the login form should be displayed:
+	* *mock up with the login form "username" and "password" labels and boxes and with a "sign in" button.*
 ######1. Username Label - shall be defined with font XXX size XXX color FFXXXX<br />
 ######2. Password Label - shall be defined with font XXX size XXX color FFXXXX<br />
 ######3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"<br />
@@ -68,9 +68,9 @@ Lastly I would also add practical examples in errors descriptions and severity t
 ######5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX<br />
 
 ####Flow of actions:
-1. User shall fill in the username<br />
-2. User shall fill in the password<br />
-3. User shall press "Sign In" button<br />
+1. User shall fill in the username
+2. User shall fill in the password
+3. User shall press "Sign In" button
 	
 	
 #### When the user press the "sign in" button web, validate if the username and password are fullfilled. 
@@ -84,15 +84,15 @@ Lastly I would also add practical examples in errors descriptions and severity t
 	
 #2 - Test plan <br />
 ### 1 - login failed <br />
-#### empty username <br />
-#### empty password <br />
-#### empty password and username <br />
-#### inexistent user <br />
-#### wrong password <br />
-#### sql injection <br />
+#### 1.1 - empty username <br />
+#### 1.2 - empty password <br />
+#### 1.3 - empty password and username <br />
+#### 1.4 - inexistent user <br />
+#### 1.5 - wrong password <br />
+#### 1.6 - sql injection <br />
  <br />
 ###2 - login successful <br />
-#### happy path: <br />
+#### 2.1 - happy path: <br />
 pick a task <br />
 perform annotation <br />
 (1 issue minor) <br />
@@ -102,7 +102,7 @@ resume annotation <br />
 finnish annotation <br />
 check score <br />
  <br />
-#### check if QT21 is correctly calculated with 2 different issues types <br />
+#### 2.2 - check if QT21 is correctly calculated with 2 different issues types <br />
 pick a task <br />
 perform annotation <br />
 (1 issue major) <br />
@@ -112,7 +112,7 @@ resume annotation <br />
 finnish annotation <br />
 check score <br />
  <br />
-#### check if QT21 is correctly calculated with 3 different issues types <br />
+#### 2.3 - check if QT21 is correctly calculated with 3 different issues types <br />
 pick a task <br />
 perform annotation <br />
 (1 issue minor) <br />
@@ -125,7 +125,7 @@ resume annotation <br />
 finnish annotation <br />
 check score <br />
  <br />
-#### check if QT21 is correctly calculated with 3 different issues types without breaks <br />
+#### 2.4 - check if QT21 is correctly calculated with 3 different issues types without breaks <br />
 pick a task <br />
 perform annotation <br />
 (1 issue critical) <br />
@@ -133,7 +133,7 @@ finnish annotation <br />
 check score <br />
  <br />
 
-#### check if QT21 is correctly calculated with 3 different issues types with severall issues in each break session time out
+#### 2.5 check if QT21 is correctly calculated with 3 different issues types with severall issues in each break session time out
 pick a task <br />
 perform annotation <br />
 (2 issue minor) <br />
