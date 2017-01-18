@@ -6,6 +6,7 @@ I think that the document is hard to read due to its information sequence. My su
 
 #### 1  What is Unbabel and what are the type of texts I will be working with 
 * How does Unbabel work?
+<br />
 #### 2 Annotation tool 
 * what is it 
 * what does it do
@@ -14,6 +15,7 @@ I think that the document is hard to read due to its information sequence. My su
 	* translation task
 	* batches 
 	* etc 
+<br />
 #### 3. User guide
 * login
 * start page
