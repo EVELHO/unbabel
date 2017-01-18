@@ -51,7 +51,7 @@ Lastly I would also add practical examples in errors descriptions and severity t
 ####Access Page
 	* When the user access the application, if he is not logged in with an active session he should see the following login page:
 		
-	* _Mockup with the same buttons: the "contact us" and the "sign in" buttons_ 
+	 (Mockup with the same buttons: the "contact us" and the "sign in" buttons)
 		
 
 #####Contact us button
@@ -60,7 +60,7 @@ Lastly I would also add practical examples in errors descriptions and severity t
 
 #####Sign in button:>
 	* When the user clicks on this button, the login form should be displayed:
-	* *mock up with the login form "username" and "password" labels and boxes and with a "sign in" button.*
+	(mock up with the login form "username" and "password" labels and boxes and with a "sign in" button)
 ######1. Username Label - shall be defined with font XXX size XXX color FFXXXX
 ######2. Password Label - shall be defined with font XXX size XXX color FFXXXX
 ######3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"
@@ -94,58 +94,58 @@ Lastly I would also add practical examples in errors descriptions and severity t
 ###2 - login successful <br />
 #### 2.1 - happy path: <br />
 pick a task <br />
-perform annotation 
-(1 issue minor) <br />
+perform annotation <br />
+(create 1 minor issue) <br />
 take a break <br />
-resume annotation 
-(1 issue minor) <br />
+resume annotation <br />
+(create 1 minor issue) <br />
 finnish annotation <br />
 check score <br />
  <br />
 #### 2.2 - check if QT21 is correctly calculated with 2 different issues types <br />
 pick a task <br />
-perform annotation 
-(1 issue major) <br />
+perform annotation <br />
+(create 1 major issue) <br />
 take a break <br />
-resume annotation 
-(1 issue minor) <br />
+resume annotation <br />
+(create 1 minor issue) <br />
 finnish annotation <br />
 check score <br />
  <br />
 #### 2.3 - check if QT21 is correctly calculated with 3 different issues types <br />
 pick a task <br />
-perform annotation 
-(1 issue minor) <br />
+perform annotation <br />
+(create 1 minor issue) <br />
 take a break <br />
-resume annotation 
-(1 issue critical) <br />
+resume annotation <br />
+(create 1 critical issue) <br />
 take a break <br />
-resume annotation 
-(1 issue major) <br />
+resume annotation <br />
+(create 1 major issue) <br />
 finnish annotation <br />
 check score <br />
  <br />
 #### 2.4 - check if QT21 is correctly calculated with 3 different issues types without breaks <br />
 pick a task <br />
-perform annotation 
-(1 issue critical) <br />
+perform annotation <br />
+(create 1 critical issue) <br />
 finnish annotation <br />
 check score <br />
  <br />
 
 #### 2.5 check if QT21 is correctly calculated with 3 different issues types with severall issues in each break session time out
 pick a task <br />
-perform annotation 
-(2 issue minor) <br />
+perform annotation <br />
+(create 2 minor issues) <br />
 take a break <br />
-resume annotation 
-(2 issue minor) <br />
+resume annotation <br />
+(create 2 minor issues) <br />
 expire session <br />
 login <br />
-resume annotation 
+resume annotation <br />
 (1 issue major) <br />
 take a break <br />
-resume annotation 
+resume annotation <br />
 (1 issue minor) <br />
 finnish annotation <br />
 check score <br />
