@@ -5,15 +5,15 @@
 I think that the document is hard to read due to its information sequence. My suggestion to ease the comprehension of the reader would be to group the document into logic parts, following an ordered action flow something as below:
 
 ####1.  What is Unbabel and what are the type of texts I will be working with
-	* How does Unbabel work? 
+* How does Unbabel work? 
 ####2. Annotation tool 
-	* what is it 
-	* what does it do
-	* annotation goals
-	* tool quick glossary
-		* translation task
-		* batches 
-		* etc 
+* what is it 
+* what does it do
+* annotation goals
+* tool quick glossary
+	* translation task
+	* batches 
+	* etc 
 ####3. User guide
 * login
 * start page
@@ -48,24 +48,24 @@ Lastly I would also add practical examples in errors descriptions and severity t
 <br />
 ####1. Login requirement specification<br />
 <br />
-####Access Page<br />
+####Access Page
 	* When the user access the application, if he is not logged in with an active session he should see the following login page:
-		<br />
+		
 	* _Mockup with the same buttons: the "contact us" and the "sign in" buttons_ 
-		<br />
+		
 
-#####Contact us button<br />
+#####Contact us button
 	* If a user does not have credentials, he shall press the "Contact us" button.
 	* This button shall open a request form so that the user can manage any questions regarding login in the application directly with us.
 
-#####Sign in button:<br />
+#####Sign in button:>
 	* When the user clicks on this button, the login form should be displayed:
 	* *mock up with the login form "username" and "password" labels and boxes and with a "sign in" button.*
-######1. Username Label - shall be defined with font XXX size XXX color FFXXXX<br />
-######2. Password Label - shall be defined with font XXX size XXX color FFXXXX<br />
-######3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"<br />
-######4. Password shall be defined as a password field with font XXX size XXX color FFXXXX with a placeholder defined as "password"<br />
-######5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX<br />
+######1. Username Label - shall be defined with font XXX size XXX color FFXXXX
+######2. Password Label - shall be defined with font XXX size XXX color FFXXXX
+######3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"
+######4. Password shall be defined as a password field with font XXX size XXX color FFXXXX with a placeholder defined as "password"
+######5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX
 
 ####Flow of actions:
 1. User shall fill in the username
