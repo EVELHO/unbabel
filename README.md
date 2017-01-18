@@ -4,12 +4,12 @@
 
 I think that the document is hard to read due to its information sequence. My suggestion to ease the comprehension of the reader would be to group the document into logic parts, following an ordered action flow something as below:<br />
 <br />
-1.  What is Unbabel and what are the type of texts I will be working with
+1.  What is Unbabel and what are the type of texts I will be working with<br />
 	* How does Unbabel work? <br />
 2. Annotation tool <br />
 	* what is it <br />
 	* what does it do<br />
-	* annotation goals <br />
+	* annotation goals<br />
 	* tool quick glossary<br />
 		* translation task<br />
 		* batches <br />
@@ -31,12 +31,14 @@ I think that the document is hard to read due to its information sequence. My su
 	* tipos de erros <br />
 	* severidade de erros<br />
 	* QT21 e MQM<br />
-	
+<br />
+<br />
+<br />
 
 This document is also too verbose, as in "How can I start annotating" segment<br />
 I would suggest to change the document in order to put this information in sequenced bullets to ease the reading.<br />
 I would also add visual support with application screenshots for each step.<br />
-
+<br />
 
 Lastly I would also add practical examples in errors descriptions and severity to enhance reader comprehension.<br />
 <br />
@@ -69,7 +71,7 @@ Lastly I would also add practical examples in errors descriptions and severity t
 * Flow of actions:
   * 1 - User shall fill in the username<br />
   * 2 - User shall fill in the password<br />
-  *3 - User shall press "Sign In" button<br />
+  * 3 - User shall press "Sign In" button<br />
 	
 	
 	When the user press the "sign in" button web, validate if the username and password are fullfilled. 
