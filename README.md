@@ -16,16 +16,16 @@ I think that the document is hard to read due to its information sequence. My su
 		* etc <br />
 3. User guide<br />
 	* login<br />
- 	* start page<br />
-  	* description of what is there and how to use it<br />
- 	* how to create an annotation <br />
-  	* where to go<br />
-  	* detail the creation of at least one of the most commons and the all the "trickiest" that may be harder to create as the spaced words<br />
-  	* what are the client instructions<br />
-  	* Error type and severity overview<br />
-    	* mentioning that the errors details and severity are explained later on the document <br />
-  	* overview do QT21 e MQM<br />
-	  	* mentioning that QT21 and MQM are explained later on the document <br />
+	* start page<br />
+	* description of what is there and how to use it<br />
+	* how to create an annotation <br />
+		* where to go<br />
+		* detail the creation of at least one of the most commons and the all the "trickiest" that may be harder to create as the spaced words<br />
+		* what are the client instructions<br />
+		* Error type and severity overview<br />
+			* mentioning that the errors details and severity are explained later on the document <br />
+		* overview do QT21 e MQM<br />
+			* mentioning that QT21 and MQM are explained later on the document <br />
 		* lista de anotations e a sua navegacao<br />
 4. Descricao detalhada de<br />
 	* tipos de erros <br />
@@ -51,22 +51,22 @@ Lastly I would also add practical examples in errors descriptions and severity t
 * 1.1 - Access Page<br />
  * When the user access the application, if he is not logged in with an active session he should see the following login page:<br />
 	<br />
-* Mockup with the same buttons: the "contact us" and the "sign in" buttons *<br />
+* _Mockup with the same buttons: the "contact us" and the "sign in" buttons_ <br />
 	<br />
    * 1.1.1 Contact us button<br />
-    * If a user does not have credentials, he shall press the "Contact us" button.<br />
-    * This buttol shall open a request form so that the user can manage any questions regarding login in the application directly with us.<br />
+   	* If a user does not have credentials, he shall press the "Contact us" button.<br />
+    	* This button shall open a request form so that the user can manage any questions regarding login in the application directly with us.<br />
 
    * 1.1.2 Sign in button:<br />
-    * When the user clicks on this button, the login form should be displayed:<br />
+    	* When the user clicks on this button, the login form should be displayed:<br />
 	
      * *mock up with the login form "username" and "password" labels and boxes and with a "sign in" button.*<br />
 					
-    * 1. Username Label - shall be defined with font XXX size XXX color FFXXXX<br />
-    * 2. Password Label - shall be defined with font XXX size XXX color FFXXXX<br />
-    * 3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"<br />
-    * 4. Password shall be defined as a password field with font XXX size XXX color FFXXXX with a placeholder defined as "password"<br />
-    * 5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX<br />
+    	* 1. Username Label - shall be defined with font XXX size XXX color FFXXXX<br />
+   	* 2. Password Label - shall be defined with font XXX size XXX color FFXXXX<br />
+    	* 3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"<br />
+   	* 4. Password shall be defined as a password field with font XXX size XXX color FFXXXX with a placeholder defined as "password"<br />
+   	* 5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX<br />
 
 * Flow of actions:
   * 1 - User shall fill in the username<br />
