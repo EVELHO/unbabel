@@ -5,7 +5,8 @@
 I think that the document is hard to read due to its information sequence. My suggestion to ease the comprehension of the reader would be to group the document into logic parts, following an ordered action flow something as below:
 
 #### 1  What is Unbabel and what are the type of texts I will be working with 
-* How does Unbabel work?
+* How does Unbabel work?  
+
 <br />
 #### 2 Annotation tool <br />
 * what is it 
@@ -14,7 +15,8 @@ I think that the document is hard to read due to its information sequence. My su
 * tool quick glossary
 	* translation task
 	* batches 
-	* etc 
+	* etc   
+	
 <br />
 #### 3. User guide<br />
 * login
@@ -28,7 +30,8 @@ I think that the document is hard to read due to its information sequence. My su
 		* mentioning that the errors details and severity are explained later on the document 
 	* overview do QT21 e MQM
 		* mentioning that QT21 and MQM are explained later on the document
-	* lista de anotations e a sua navegacao
+	* lista de anotations e a sua navegacao  
+	
 #### 4. Detailed description of
 * error types
 * error severity
