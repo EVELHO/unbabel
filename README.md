@@ -94,40 +94,40 @@ Lastly I would also add practical examples in errors descriptions and severity t
 ###2 - login successful <br />
 #### 2.1 - happy path: <br />
 pick a task <br />
-perform annotation <br />
+perform annotation 
 (1 issue minor) <br />
 take a break <br />
-resume annotation <br />
+resume annotation 
 (1 issue minor) <br />
 finnish annotation <br />
 check score <br />
  <br />
 #### 2.2 - check if QT21 is correctly calculated with 2 different issues types <br />
 pick a task <br />
-perform annotation <br />
+perform annotation 
 (1 issue major) <br />
 take a break <br />
-resume annotation <br />
+resume annotation 
 (1 issue minor) <br />
 finnish annotation <br />
 check score <br />
  <br />
 #### 2.3 - check if QT21 is correctly calculated with 3 different issues types <br />
 pick a task <br />
-perform annotation <br />
+perform annotation 
 (1 issue minor) <br />
 take a break <br />
-resume annotation <br />
+resume annotation 
 (1 issue critical) <br />
 take a break <br />
-resume annotation <br />
+resume annotation 
 (1 issue major) <br />
 finnish annotation <br />
 check score <br />
  <br />
 #### 2.4 - check if QT21 is correctly calculated with 3 different issues types without breaks <br />
 pick a task <br />
-perform annotation <br />
+perform annotation 
 (1 issue critical) <br />
 finnish annotation <br />
 check score <br />
@@ -135,17 +135,17 @@ check score <br />
 
 #### 2.5 check if QT21 is correctly calculated with 3 different issues types with severall issues in each break session time out
 pick a task <br />
-perform annotation <br />
+perform annotation 
 (2 issue minor) <br />
 take a break <br />
-resume annotation <br />
+resume annotation 
 (2 issue minor) <br />
 expire session <br />
 login <br />
-resume annotation <br />
+resume annotation 
 (1 issue major) <br />
 take a break <br />
-resume annotation <br />
+resume annotation 
 (1 issue minor) <br />
 finnish annotation <br />
 check score <br />
