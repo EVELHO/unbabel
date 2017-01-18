@@ -1,12 +1,12 @@
 
-###1.1 Review and refactor
+#1.1 Review and refactor
 
 
 I think that the document is hard to read due to its information sequence. My suggestion to ease the comprehension of the reader would be to group the document into logic parts, following an ordered action flow something as below:<br />
 <br />
-######1.  What is Unbabel and what are the type of texts I will be working with
+####1.  What is Unbabel and what are the type of texts I will be working with
 	* How does Unbabel work? <br />
-######2. Annotation tool 
+####2. Annotation tool 
 	* what is it 
 	* what does it do
 	* annotation goals
@@ -14,7 +14,7 @@ I think that the document is hard to read due to its information sequence. My su
 		* translation task
 		* batches 
 		* etc 
-######3. User guide
+####3. User guide
 * login
 * start page
 * description of what is there and how to use it>
@@ -27,7 +27,7 @@ I think that the document is hard to read due to its information sequence. My su
 	* overview do QT21 e MQM
 		* mentioning that QT21 and MQM are explained later on the document
 	* lista de anotations e a sua navegacao
-######4. Descricao detalhada de
+####4. Descricao detalhada de
 * tipos de erros <br />
 * severidade de erros
 * QT21 e MQM
@@ -44,36 +44,36 @@ Lastly I would also add practical examples in errors descriptions and severity t
 <br />
 <br />
 <br />
-###1.2 Spec out<br />
+#1.2 Spec out<br />
 <br />
-######1. Login requirement specification<br />
+####1. Login requirement specification<br />
 <br />
-######Access Page<br />
+####Access Page<br />
 	* When the user access the application, if he is not logged in with an active session he should see the following login page:
 		<br />
 	* _Mockup with the same buttons: the "contact us" and the "sign in" buttons_ 
 		<br />
 
-#######Contact us button<br />
+#####Contact us button<br />
 	* If a user does not have credentials, he shall press the "Contact us" button.
 	* This button shall open a request form so that the user can manage any questions regarding login in the application directly with us.
 
-#######Sign in button:<br />
+#####Sign in button:<br />
 	* When the user clicks on this button, the login form should be displayed:<br />
 	* *mock up with the login form "username" and "password" labels and boxes and with a "sign in" button.*<br />
-########1. Username Label - shall be defined with font XXX size XXX color FFXXXX<br />
-########2. Password Label - shall be defined with font XXX size XXX color FFXXXX<br />
-########3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"<br />
-########4. Password shall be defined as a password field with font XXX size XXX color FFXXXX with a placeholder defined as "password"<br />
-########5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX<br />
+######1. Username Label - shall be defined with font XXX size XXX color FFXXXX<br />
+######2. Password Label - shall be defined with font XXX size XXX color FFXXXX<br />
+######3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"<br />
+######4. Password shall be defined as a password field with font XXX size XXX color FFXXXX with a placeholder defined as "password"<br />
+######5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX<br />
 
-######Flow of actions:
+####Flow of actions:
 1. User shall fill in the username<br />
 2. User shall fill in the password<br />
 3. User shall press "Sign In" button<br />
 	
 	
-###### When the user press the "sign in" button web, validate if the username and password are fullfilled. 
+#### When the user press the "sign in" button web, validate if the username and password are fullfilled. 
 	If any of the fields are empty display the error message: "login information is missing" with font XXX size XXX color FFXXXX
 	If both fields are fulfilled, then perform the login request to server. (assuming that a login service to server is already done)
 		If the login is not successful, display the error message: "login invalid" with font XXX size XXX color FFXXXX
