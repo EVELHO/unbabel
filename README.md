@@ -4,33 +4,33 @@
 
 I think that the document is hard to read due to its information sequence. My suggestion to ease the comprehension of the reader would be to group the document into logic parts, following an ordered action flow something as below:
 
-#### 1.  What is Unbabel and what are the type of texts I will be working with <br />
-* How does Unbabel work? <br />
-#### 2. Annotation tool <br />
-* what is it <br />
-* what does it do<br />
-* annotation goals<br />
-* tool quick glossary<br />
-	* translation task<br />
-	* batches <br />
-	* etc <br />
-#### 3. User guide<br />
-* login<br />
-* start page<br />
-* description of what is there and how to use it><br />
-* how to create an annotation <br />
-	* where to go<br />
-	* detail the creation of at least one of the most commons and the all the "trickiest" that may be harder to create as the spaced words<br />
-	* what are the client instructions<br />
-	* Error type and severity overview<br />
-		* mentioning that the errors details and severity are explained later on the document <br />
-	* overview do QT21 e MQM<br />
-		* mentioning that QT21 and MQM are explained later on the document<br />
-	* lista de anotations e a sua navegacao<br />
-#### 4. Descricao detalhada de<br />
-* tipos de erros <br />
-* severidade de erros<br />
-* QT21 e MQM<br />
+#### 1  What is Unbabel and what are the type of texts I will be working with 
+* How does Unbabel work?
+#### 2 Annotation tool 
+* what is it 
+* what does it do
+* annotation goals
+* tool quick glossary
+	* translation task
+	* batches 
+	* etc 
+#### 3. User guide
+* login
+* start page
+* description of what is there and how to use it
+* how to create an annotation 
+	* where to go
+	* detail the creation of at least one of the most commons and the all the "trickiest" that may be harder to create as the spaced words
+	* what are the client instructions
+	* Error type and severity overview
+		* mentioning that the errors details and severity are explained later on the document 
+	* overview do QT21 e MQM
+		* mentioning that QT21 and MQM are explained later on the document
+	* lista de anotations e a sua navegacao
+#### 4. Detailed description of
+* error types
+* error severity
+* QT21 e MQM
 <br />
 <br />
 <br />
@@ -65,7 +65,7 @@ Lastly I would also add practical examples in errors descriptions and severity t
 ###### 2. Password Label - shall be defined with font XXX size XXX color FFXXXX
 ###### 3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"
 ###### 4. Password shall be defined as a password field with font XXX size XXX color FFXXXX with a placeholder defined as "password"
-######5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX
+###### 5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX
 
 #### Flow of actions:
 1. User shall fill in the username
