@@ -4,11 +4,11 @@
 
 I think that the document is hard to read due to its information sequence. My suggestion to ease the comprehension of the reader would be to group the document into logic parts, following an ordered action flow something as below:
 
-#### 1  What is Unbabel and what are the type of texts I will be working with 
+#### 1.  What is Unbabel and what are the type of texts I will be working with 
 * How does Unbabel work?  
 
 <br />
-#### 2 Annotation tool <br />
+#### 2. Annotation tool <br />
 * what is it 
 * what does it do
 * annotation goals
