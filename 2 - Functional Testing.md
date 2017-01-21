@@ -26,6 +26,8 @@
 
 | 2.2 - check if QT21 is correctly calculated with 2 different issues types | Expected                                               | Actual | Comments              |
 |---------------------------------------------------------------------------|--------------------------------------------------------|--------|-----------------------|
+| Go to Batch Selection page                                                | Batch Selection Page is opened                         | OK     |                       |
+
 | Pick a translation task                                                   | Translation task is opened                             | OK     |                       |
 | Perform annotation - create 1 major issue                                 | Annotation is created                                  | OK     |                       |
 | Take a break                                                              | Application redirected to Batch selection page         | OK     |                       |
@@ -38,6 +40,7 @@
  
 | 2.3 - check if QT21 is correctly calculated with 3 different issues types | Expected                                               | Actual | Comments              |
 |---------------------------------------------------------------------------|--------------------------------------------------------|--------|-----------------------|
+| Go to Batch Selection page                                                | Batch Selection Page is opened                         | OK     |                       |
 | Pick a translation task                                                   | Translation task is opened                             | OK     |                       |
 | Perform annotation - create 1 minor issue                                 | Annotation is created                                  | OK     |                       |
 | Take a break                                                              | Application redirected to Batch selection page         | OK     |                       |
@@ -53,12 +56,13 @@
  
  
 | 2.4 - check if QT21 is correctly calculated with 3 different issues types without breaks | Expected                   | Actual | Comments              |
-|------------------------------------------------------------------------------------------|----------------------------|--------|-----------------------|
-| Pick a translation task                                                                  | Translation task is opened | OK     |                       |
-| Perform annotation - create 1 critical issue                                             | Annotation is created      | OK     |                       |
-| Perform annotation - create 1 major issue                                                | Annotation is created      | OK     |                       |
-| Perform annotation - create 1 minor issue                                                | Annotation is created      | OK     |                       |
-| Check QT21 Score                                                                         | QT21 shall be updated      | NOK    | Score is not updated. |
+|------------------------------------------------------------------------------------------|--------------------------------|--------|-----------------------|
+| Go to Batch Selection page                                                               | Batch Selection Page is opened | OK     |                        |
+| Pick a translation task                                                                  | Translation task is opened     | OK     |                        |
+| Perform annotation - create 1 critical issue                                             | Annotation is created          | OK     |                        |
+| Perform annotation - create 1 major issue                                                | Annotation is created          | OK     |                        |
+| Perform annotation - create 1 minor issue                                                | Annotation is created          | OK     |                        |
+| Check QT21 Score                                                                         | QT21 shall be updated          | NOK    | Score is not updated.|
 
 
 <br />
@@ -67,6 +71,7 @@
 
 | 2.5 check if QT21 is correctly calculated with 3 different issues types with severall issues in each break session time out | Expected                                               | Actual |Comments               |
 |-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------|-----------------------|
+| Go to Batch Selection page                                                                                                  | Batch Selection Page is opened                               | OK     |                       |
 | Pick a translation task                                                                                                     | Translation task is opened                             | OK     |                       |
 | Perform annotation - create 1 minor issue                                                                                   | Annotation is created                                  | OK     |                       |
 | Perform annotation - create 1 minor issue                                                                                   | Annotation is created                                  | OK     |                       |
@@ -86,15 +91,17 @@
 
  <br />
 
-| 2.6 Add annotation without assigning severity | Expected                               | Actual |Comments   |
-|-----------------------------------------------|----------------------------------------|--------|-----------|
-| Create annotation withou assigning type of error and severity   | You have to select the severity first. | OK     |   |
-| Assign severity   | You have to select the severity first. | OK     |   |
+| 2.6 Add annotation without assigning severity                 | Expected                               | Actual |Comments   |
+|---------------------------------------------------------------|----------------------------------------|--------|-----------|
+| Go to Batch Selection page                                    | Batch Selection Page is opened         | OK     |           |
+| Create annotation withou assigning type of error and severity | You have to select the severity first. | OK     |           |
+| Assign severity   | You have to select the severity first.                                             | OK     |           |
 
  <br />
  
 | 2.7 Add annotation without assigning severity | Expected                               | Actual |Comments   |
 |-----------------------------------------------|----------------------------------------|--------|-----------|
+| Go to Batch Selection page                    | Batch Selection Page is opened         | OK     |           |
 | Create annotation withou assigning severity   | You have to select the severity first. | OK     |           |
 
 
