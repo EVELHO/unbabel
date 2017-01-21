@@ -25,9 +25,8 @@
  <br />
 
 | 2.2 - check if QT21 is correctly calculated with 2 different issues types | Expected                                               | Actual | Comments              |
-|---------------------------------------------------------------------------|--------------------------------------------------------|--------|-----------------------|
+|---------------------------------------------------------------------------|--------------------------------------------------------|--------|------------------------|
 | Go to Batch Selection page                                                | Batch Selection Page is opened                         | OK     |                       |
-
 | Pick a translation task                                                   | Translation task is opened                             | OK     |                       |
 | Perform annotation - create 1 major issue                                 | Annotation is created                                  | OK     |                       |
 | Take a break                                                              | Application redirected to Batch selection page         | OK     |                       |
@@ -39,7 +38,7 @@
  <br />
  
 | 2.3 - check if QT21 is correctly calculated with 3 different issues types | Expected                                               | Actual | Comments              |
-|---------------------------------------------------------------------------|--------------------------------------------------------|--------|-----------------------|
+|---------------------------------------------------------------------------|--------------------------------------------------------|--------|------------------------|
 | Go to Batch Selection page                                                | Batch Selection Page is opened                         | OK     |                       |
 | Pick a translation task                                                   | Translation task is opened                             | OK     |                       |
 | Perform annotation - create 1 minor issue                                 | Annotation is created                                  | OK     |                       |
@@ -107,4 +106,4 @@
 
 
 #2.3 Status Report
-![Status](https://drive.google.com/uc?export=download&id=0B0LtWpv5HjEDZWRiZzFPWDBtcE0)
+![Status](https://lh4.googleusercontent.com/pKU1X-KClRDFh4YXdYvMcLiv_qCPuc6yu5ZYyFt3SMdCBavooioQGYgYm7qj3KKl_tBSF6K_FX6NENw=w1366-h662)
