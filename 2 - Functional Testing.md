@@ -108,4 +108,4 @@
 <br />
 
 ## Status Report
-![Status](https://lh4.googleusercontent.com/pKU1X-KClRDFh4YXdYvMcLiv_qCPuc6yu5ZYyFt3SMdCBavooioQGYgYm7qj3KKl_tBSF6K_FX6NENw=w1366-h662)
+![Status](https://drive.google.com/file/d/0B0LtWpv5HjEDcFhDZFhqOHZaUnM/view?usp=sharing)
