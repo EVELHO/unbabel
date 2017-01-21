@@ -41,7 +41,7 @@ I think that the document is hard to read due to its information sequence. My su
 <br />
 
 This document is also too verbose, as in "How can I start annotating" segment<br />
-I would suggest to change the document in order to put this information in sequenced bullets to ease the reading.<br />
+I would suggest changing the document in order to put this information in sequenced bullets to ease the reading.<br />
 I would also add visual support with application screenshots for each step.<br />
 <br />
 
@@ -54,23 +54,27 @@ Lastly I would also add practical examples in errors descriptions and severity t
 #### 1. Login requirement specification<br />
 <br />
 #### Access Page
-	* When the user access the application, if he is not logged in with an active session he should see the following login page:
-		
-	 (Mockup with the same buttons: the "contact us" and the "sign in" buttons)
-		
+When the user accesses the application, if he is not logged in with an active session he should see the following login page:
+<br />
+		(Mockup with the same buttons: the "contact us" and the "sign in" buttons)
+###### Fields description
+1. Contact Us - shall be defined with font XXX size XXX color FFXXXX
+2. Sign in - shall be defined with font XXX size XXX color FFXXXX		
 
 ##### Contact us button
-	* If a user does not have credentials, he shall press the "Contact us" button.
-	* This button shall open a request form so that the user can manage any questions regarding login in the application directly with us.
+If a user does not have credentials, he shall press the "Contact us" button.
+This button shall open a request form so that the user can manage any questions regarding login in the application directly with us.
 
 ##### Sign in button:>
-	* When the user clicks on this button, the login form should be displayed:
+When the user clicks on this button, the login form should be displayed:
+<br />
 	(mock up with the login form "username" and "password" labels and boxes and with a "sign in" button)
-###### 1. Username Label - shall be defined with font XXX size XXX color FFXXXX
-###### 2. Password Label - shall be defined with font XXX size XXX color FFXXXX
-###### 3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"
-###### 4. Password shall be defined as a password field with font XXX size XXX color FFXXXX with a placeholder defined as "password"
-###### 5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX
+###### Fields description
+1. Username Label - shall be defined with font XXX size XXX color FFXXXX
+2. Password Label - shall be defined with font XXX size XXX color FFXXXX
+3. Username shall be defined as a Textfield with font XXX size XXX color FFXXXX, with a placeholder defined as "username"
+4. Password shall be defined as a password field with font XXX size XXX color FFXXXX with a placeholder defined as "password"
+5. "Sign in" buton shall be defined with font XXX size XXX color FFXXXX
 
 #### Flow of actions:
 1. User shall fill in the username
@@ -78,8 +82,8 @@ Lastly I would also add practical examples in errors descriptions and severity t
 3. User shall press "Sign In" button
 	
 	
-#### When the user press the "sign in" button web, validate if the username and password are fullfilled. 
-	If any of the fields are empty display the error message: "login information is missing" with font XXX size XXX color FFXXXX
-	If both fields are fulfilled, then perform the login request to server. (assuming that a login service to server is already done)
-		If the login is not successful, display the error message: "login invalid" with font XXX size XXX color FFXXXX
-		If the login the login is successful, redirect the user to the application welcome page (url).
+#### When the user presses the "sign in" button web, validate if the username and password are fullfilled. 
+If any of the fields are empty display the error message: "login information is missing" with font XXX size XXX color FFXXXX
+If both fields are fulfilled, then perform the login request to server. (assuming that a login service to server is already done)
+	If the login is not successful, display the error message: "login invalid" with font XXX size XXX color FFXXXX
+	If the login the login is successful, redirect the user to the application welcome page (url).
