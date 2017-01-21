@@ -103,7 +103,9 @@
 | Go to Batch Selection page                    | Batch Selection Page is opened         | OK     |           |
 | Create annotation withou assigning severity   | You have to select the severity first. | OK     |           |
 
+<br />
+<br />
+<br />
 
-
-#2.3 Status Report
+## Status Report
 ![Status](https://lh4.googleusercontent.com/pKU1X-KClRDFh4YXdYvMcLiv_qCPuc6yu5ZYyFt3SMdCBavooioQGYgYm7qj3KKl_tBSF6K_FX6NENw=w1366-h662)
